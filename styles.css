@@ -282,6 +282,8 @@ details p{margin:0;padding:0 0 22px;color:var(--muted)}
   .desktop-nav,.header-phone{display:none}
   .menu-toggle{display:block}
   .hero-grid,.wh-grid,.process-grid,.audit-grid,.faq-grid,.final-grid{grid-template-columns:1fr}
+  .audit-grid{grid-template-columns:minmax(0,1fr)}
+  .audit .btn{max-width:100%;white-space:normal;text-align:center}
   .process-intro,.zone-info{position:static}
   .section-head{flex-direction:column;align-items:start;gap:20px}
   .carousel-ctrl{justify-items:start;text-align:left}
